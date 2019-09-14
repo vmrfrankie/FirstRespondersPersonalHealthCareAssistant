@@ -1,0 +1,885 @@
+{
+  "name": "My first skill",
+  "intents": [
+    {
+      "intent": "isStressed",
+      "examples": [
+        {
+          "text": "My heart rate goes up a lot."
+        },
+        {
+          "text": "I never have enough energy to get through the day."
+        },
+        {
+          "text": "I have trouble eating."
+        },
+        {
+          "text": "I have constant nausea."
+        },
+        {
+          "text": "I get sick often."
+        },
+        {
+          "text": "I have regular aches and pains."
+        },
+        {
+          "text": "I get headaches often."
+        },
+        {
+          "text": "I can't focus that much."
+        },
+        {
+          "text": "I am easily upset."
+        },
+        {
+          "text": "I'm always anxious."
+        }
+      ],
+      "description": "To determine if first responders are stressed."
+    },
+    {
+      "intent": "isSuicidal",
+      "examples": [
+        {
+          "text": "I feel sad constantly."
+        },
+        {
+          "text": "I have been depressed for awhile."
+        },
+        {
+          "text": "The future isn't something that I count on."
+        },
+        {
+          "text": "I have no interest in anything."
+        },
+        {
+          "text": "I don't care about the future."
+        },
+        {
+          "text": "I don't see the point in life."
+        },
+        {
+          "text": "I sometimes drive recklessly."
+        },
+        {
+          "text": "I am usually alone."
+        },
+        {
+          "text": "I don't spend a lot of time with friends or family."
+        },
+        {
+          "text": "I never sleep well."
+        },
+        {
+          "text": "I can't sleep."
+        },
+        {
+          "text": "Nothing is going to get much better."
+        },
+        {
+          "text": "I don't have any hope for accomplishing anything."
+        },
+        {
+          "text": "I don't see the point in doing a lot."
+        }
+      ],
+      "description": "To determine if first responders are suicidal"
+    },
+    {
+      "intent": "atRiskForPTSD",
+      "examples": [
+        {
+          "text": "I don't sleep well."
+        },
+        {
+          "text": "I think about what happened a lot."
+        },
+        {
+          "text": "I'll remember my bad experiences often."
+        },
+        {
+          "text": "Sometimes I'll have nightmares of things that have happened."
+        },
+        {
+          "text": "I have nightmares regularly."
+        },
+        {
+          "text": "I'm usually anxious."
+        },
+        {
+          "text": "I am alert 247."
+        },
+        {
+          "text": "I am depressed often."
+        },
+        {
+          "text": "I try to avoid things that remind me of what I've been through."
+        },
+        {
+          "text": "I don't trust anyone anymore."
+        },
+        {
+          "text": "I can't sleep."
+        },
+        {
+          "text": "I feel numb."
+        },
+        {
+          "text": "Everything makes me angry."
+        },
+        {
+          "text": "I get afraid of the smallest things."
+        },
+        {
+          "text": "I've been dealing with nightmares."
+        },
+        {
+          "text": "I get stuck remembering memories of past rescues."
+        },
+        {
+          "text": "I might experience some anxiety."
+        }
+      ],
+      "description": "To determine if first responders have/are at risk for PTSD"
+    },
+    {
+      "intent": "isDepressed",
+      "examples": [
+        {
+          "text": "I am normally numb."
+        },
+        {
+          "text": "I don't really have any interest in doing anything."
+        },
+        {
+          "text": "I just get discouraged sometimes."
+        },
+        {
+          "text": "I feel down often."
+        },
+        {
+          "text": "I'm having trouble concentrating."
+        },
+        {
+          "text": "I have no energy lately."
+        },
+        {
+          "text": "I have chronic pain."
+        },
+        {
+          "text": "This is stupid."
+        },
+        {
+          "text": "I cry often."
+        },
+        {
+          "text": "I am short with everyone."
+        },
+        {
+          "text": "I am okay."
+        },
+        {
+          "text": "I feel okay."
+        },
+        {
+          "text": "been okay."
+        },
+        {
+          "text": "I have been tired."
+        },
+        {
+          "text": "My week has been very long."
+        },
+        {
+          "text": "I sometimes get sad."
+        },
+        {
+          "text": "I am sad sometimes."
+        },
+        {
+          "text": "I can't focus very well."
+        },
+        {
+          "text": "Guilt is a problem I face."
+        },
+        {
+          "text": "I feel worthless sometimes."
+        }
+      ],
+      "description": "To determine if first responder is depressed."
+    },
+    {
+      "intent": "IsSubstanceAbusing",
+      "examples": [
+        {
+          "text": "I drink sometimes."
+        },
+        {
+          "text": "I usually don't do anything after work."
+        },
+        {
+          "text": "Haven't been very hungry lately."
+        },
+        {
+          "text": "I grabbed a few drinks"
+        },
+        {
+          "text": "I went to the bar"
+        },
+        {
+          "text": "I had a few drinks"
+        },
+        {
+          "text": "My emotions are a roller coaster some days."
+        },
+        {
+          "text": "My moods go up and down."
+        },
+        {
+          "text": "I self medicate."
+        },
+        {
+          "text": "I'll take sleep meds to help me fall asleep."
+        },
+        {
+          "text": "I use drugs to help me relax."
+        },
+        {
+          "text": "I haven't been eating much."
+        },
+        {
+          "text": "I haven't wanted to work lately."
+        },
+        {
+          "text": "I have had trouble sleeping."
+        },
+        {
+          "text": "Just exhausted."
+        },
+        {
+          "text": "I have been very tired."
+        },
+        {
+          "text": "I have been angry lately."
+        },
+        {
+          "text": "I smoke a little."
+        },
+        {
+          "text": "I'll get drunk every now and then."
+        }
+      ],
+      "description": "To find out if first reponder is a substance abuser"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "am_traumatized",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "have flashbacks",
+          "synonyms": [
+            "remember bad situations",
+            "keep thinking about",
+            "past memories distract me",
+            "intrusive thoughts"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "isolate myself",
+          "synonyms": [
+            "am alone often",
+            "alone all the time",
+            "don't go out",
+            "keep to myself",
+            "do not see family",
+            "do not see friends",
+            "bymyself"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "am anxious",
+          "synonyms": [
+            "am scared",
+            "feel scared",
+            "am afraid",
+            "get scared",
+            "fearful",
+            "anxiety"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "am mistrustful",
+          "synonyms": [
+            "don't trust anyone",
+            "can't trust anyone",
+            "no trust",
+            "no confidence"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "am emotionally detached",
+          "synonyms": [
+            "numb",
+            "unfeeling",
+            "don't feel anything",
+            "emotionally vacant"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "am agitated",
+          "synonyms": [
+            "feel angry",
+            "am upset",
+            "I don't want to answer",
+            "angry",
+            "annoyed",
+            "troubled",
+            "bothered",
+            "unsettled"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "lost interest in other things",
+          "synonyms": [
+            "don't want to do anything",
+            "have no motivation",
+            "no desire to",
+            "am unintersested in old hobbies"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "avoid places that remind me of the incident",
+          "synonyms": [
+            "avoid things that make me remember",
+            "avoid things that lead me to remember",
+            "steer clear of the things that cause me to remember"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "have nightmares",
+          "synonyms": [
+            "experience nightmares",
+            "have bad dreams",
+            "can't sleep",
+            "don't sleep",
+            "can't sleep well"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "am_depressed",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "am depressed",
+          "synonyms": [
+            "feel depressed",
+            "often depressed",
+            "depressed",
+            "sad",
+            "down",
+            "hopeless",
+            "guitly",
+            "disappointed",
+            "lonely",
+            "miserable",
+            "exhausted",
+            "tired",
+            "low energy",
+            "no energy",
+            "glum",
+            "pessimistic",
+            "been okay",
+            "been fine",
+            "alright",
+            "not bad",
+            "am sad",
+            "okay"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "how_it_affects_work",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "can work very well",
+          "synonyms": [
+            "work well",
+            "am good at my job",
+            "am responsible",
+            "work often",
+            "work regularly",
+            "do my job well"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "can never work",
+          "synonyms": [
+            "can't work",
+            "can't focus",
+            "unable to do job",
+            "don't get work done",
+            "can't concentrate",
+            "don't finish things",
+            "never work",
+            "don't work",
+            "can't do my job",
+            "am lazy",
+            "lazy"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "can sometimes work",
+          "synonyms": [
+            "can't work well",
+            "sometimes work",
+            "work sometimes",
+            "do not work often",
+            "work a little",
+            "work some",
+            "am okay at my job"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "do my best at work",
+          "synonyms": [
+            "I am amazing at my job",
+            "I do great",
+            "I am doing great",
+            "I accomplish a lot",
+            "I work wonderfully",
+            "I very responsible",
+            "I do my work"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "am_substance_abusing",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "am substance abusing",
+          "synonyms": [
+            "using drugs",
+            "take pills",
+            "self medicate",
+            "smoke",
+            "drink",
+            "get drunk",
+            "smoke marijuana",
+            "have sleeping pills",
+            "taking sleeping pills",
+            "get high",
+            "had some drinks",
+            "had a few drinks",
+            "beer",
+            "grabbed some drinks",
+            "grabbed a few drinks",
+            "the bar"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "am_stressed",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "am stressed",
+          "synonyms": [
+            "overwhelmed",
+            "burnout",
+            "handling too much",
+            "stressed",
+            "upset",
+            "annoyed",
+            "pressure",
+            "strain",
+            "strained",
+            "worried",
+            "distressed",
+            "distress",
+            "nervous",
+            "anxious",
+            "worry",
+            "worry often"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "am_suicidal",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "am suicidal",
+          "synonyms": [
+            "extremely depressed",
+            "very depressed",
+            "depressed for a long time",
+            "don't want to live",
+            "don't see the point in life",
+            "I have no future",
+            "want to die",
+            "wish I were dead",
+            "am alone often",
+            "am lonely",
+            "very sad",
+            "sad all time",
+            "sad often",
+            "given everything away",
+            "given my belongings away"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "how_often",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Once every two weeks",
+          "synonyms": [
+            "every two weeks",
+            "every 2 weeks",
+            "a couple times a month"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Every month",
+          "synonyms": [
+            "once a month",
+            "once in a month",
+            "one time a month",
+            "once per month"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Once a week",
+          "synonyms": [
+            "one a wk",
+            "each week",
+            "one time per week",
+            "once in a weeks",
+            "once every week"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Every few days",
+          "synonyms": [
+            "every 3 days",
+            "every three days"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Every day",
+          "synonyms": [
+            "each day",
+            "everyday",
+            "all the time"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Once every six month",
+          "synonyms": [
+            "once half a year",
+            "a couple times a year",
+            "every few months",
+            "once every few months",
+            "every 6 months",
+            "6 months"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Every year",
+          "synonyms": [
+            "Once per year",
+            "yearly",
+            "every year"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "how_long",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Two weeks",
+          "synonyms": [
+            "a dozen days",
+            "14 days",
+            "a couple weeks",
+            "couple wks",
+            "2 wks"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "A year",
+          "synonyms": [
+            "12 months",
+            "twelve months",
+            "many months",
+            "a lot of months",
+            "months months",
+            "year ended"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Years",
+          "synonyms": [
+            "a few years",
+            "many years",
+            "for a long time"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "a week",
+          "synonyms": [
+            "7 days",
+            "half a dozen",
+            "per week",
+            "seven days",
+            "each week"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Two years",
+          "synonyms": [
+            "2 years",
+            "2 yrs",
+            "two yrs"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Six months",
+          "synonyms": [
+            "half a year",
+            "1/2 of a year",
+            "a few months"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "A month",
+          "synonyms": [
+            "a few weeks",
+            "four weeks",
+            "4 weeks",
+            "30 days"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "skill_id": "b99ecd5c-4749-4875-9502-9e4081349594",
+  "webhooks": [
+    {
+      "url": "",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1568479915044",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1568479915066",
+      "previous_sibling": "handler_1_1568479915066"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_1_1568479915044",
+      "event_name": "input",
+      "dialog_node": "handler_1_1568479915066"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1568477674511",
+      "dialog_node": "slot_1_1568479915044",
+      "previous_sibling": "handler_1_1568479914150"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_5_1568477674511",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1568479914150"
+    },
+    {
+      "type": "frame",
+      "title": "Am Substance Abusing",
+      "output": {
+        "text": {
+          "values": [
+            "Is there anything you do to help you fall asleep?",
+            "What do you rely on to relax?",
+            "What did you do last weekend?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#IsSubstanceAbusing ||  @am_substance_abusing",
+      "dialog_node": "node_5_1568477674511",
+      "previous_sibling": "node_5_1568477515186"
+    },
+    {
+      "type": "standard",
+      "title": "Am Suicidal",
+      "output": {
+        "text": {
+          "values": [
+            "How might you describe your confidence level?",
+            "How is it going with family and friends?",
+            "Have you been sleeping well?",
+            "Have there been any major changes in your life?",
+            "How many things have you given away recently?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#isSuicidal ||  @am_suicidal",
+      "dialog_node": "node_5_1568477141426",
+      "previous_sibling": "node_10_1568442143176"
+    },
+    {
+      "type": "standard",
+      "title": "Am Depressed",
+      "output": {
+        "text": {
+          "values": [
+            "How has your concentration been.",
+            "How would you describe your energy level?",
+            "Do you have any interests?",
+            "Are you looking forward to anything next week?",
+            "How are you and your friends?",
+            "Do you have any plans with family members coming up?",
+            "How would you describe yourself on a bad day?",
+            "Is there anything you're passionate about?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "@am_depressed ||  #isDepressed",
+      "dialog_node": "node_10_1568442143176",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "text": {
+          "values": [
+            "Could you expand on that?",
+            "Why is that?",
+            "It would be helpful if you described your current state."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_5_1568477674511"
+    },
+    {
+      "type": "standard",
+      "title": "Am Stressed",
+      "output": {
+        "text": {
+          "values": [
+            "Would you say you have a lot to do?",
+            "Are you very busy?",
+            "Do you ever get anxious?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#isStressed ||  @am_stressed",
+      "dialog_node": "node_1_1568477435639",
+      "previous_sibling": "node_5_1568477141426"
+    },
+    {
+      "type": "standard",
+      "title": "Am Traumatized",
+      "output": {
+        "text": {
+          "values": [
+            "How much sleep would you say you get?",
+            "Could you tell me more about your concentration?",
+            "Is there anything that you experience on a daily basis?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#atRiskForPTSD ||  @am_traumatized",
+      "dialog_node": "node_5_1568477515186",
+      "previous_sibling": "node_1_1568477435639"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "text": {
+          "values": [
+            "Hello. I am Watson your personal healthcare assistant. Tell me about your week."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "workspace_id": "b99ecd5c-4749-4875-9502-9e4081349594",
+  "counterexamples": [],
+  "system_settings": {
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
